@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "intern-auto-checkin"
+version = "0.1.0"
+description = "Auto Checkin for interns in GSS"
+authors = ["opabravo"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "intern_auto_checkin"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gspread = "^5.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
