@@ -14,7 +14,7 @@ GSS實習生Google Sheet簽到的自動化腳本POC
 
 ## 使用方法
 
-1. [下載](xxx)包裝好的EXE檔
+1. [下載](https://github.com/opabravo/intern-checkin-poc/releases/download/1.0/gssi.exe)包裝好的EXE檔
 2. 按照`gspread`的[官方文件](https://docs.gspread.org/en/latest/oauth2.html)取得`credentials.json`，並將其存到`./service_acc.json`
 3. 第一次執行會要求輸入`員工ID`與`實習生簽到表的KEY`(在URL裡)，之後可到`./config.json`修改
 
