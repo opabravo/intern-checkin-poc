@@ -67,6 +67,8 @@ pyinstaller -F main.py -n gssi_origin
 ResourceHacker.exe -open ./dist/gssi_origin.exe -save ./dist/gssi.exe -action addoverwrite -res gssi.res
 ```
 
+## Note
+
 沒有加version info會被防毒誤報
 
 ![](img/virustotal_1.png)
