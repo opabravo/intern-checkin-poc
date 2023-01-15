@@ -43,14 +43,6 @@ Press any key to exit...
 
 ## 開發(限開發人員)
 
-```bash
-git clone https://github.com/opabravo/intern-auto-checkin.git
-cd intern-auto-checkin
-poetry install
-poetry shell
-python main.py
-```
-
 ### 環境
 
 - Python 3.10+
@@ -58,8 +50,21 @@ python main.py
 
 ### 包裝
 
+#### Clone後安裝依賴
+
 ```bash
-pyinstaller -F main.py
+git clone https://github.com/opabravo/intern-auto-checkin.git
+cd intern-auto-checkin
+poetry install
+poetry shell
+```
+
+#### Pyinstaller + ResourceHacker 打包
+
+```bash
+pyinstaller -F main.py -n gssi_origin
+
+ResourceHacker.exe -open ./dist/gssi_origin.exe -save ./dist/gssi.exe -action addoverwrite -res gssi.res
 ```
 
 沒有加version info會被防毒誤報

@@ -24,4 +24,4 @@ var/
 *.json
 *.log
 __pycache__/
-main.spec
+*.spec
