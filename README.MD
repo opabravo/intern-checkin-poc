@@ -23,7 +23,7 @@ GSS實習生Google Sheet簽到的自動化腳本POC
 ```console
 usage: main.py [-h] [-v] [-c | -s SHOW_WORKING_HOURS]
 
-GSS實習生通用腳本 https://github.com/opabravo/intern-auto-checkin
+GSS實習生通用腳本 https://github.com/opabravo/intern-checkin-poc
 
 options:
   -h, --help            show this help message and exit
@@ -53,7 +53,7 @@ Press any key to exit...
 #### Clone後安裝依賴
 
 ```bash
-git clone https://github.com/opabravo/intern-auto-checkin.git
+git clone https://github.com/opabravo/intern-checkin-poc.git
 cd intern-auto-checkin
 poetry install
 poetry shell
