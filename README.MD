@@ -1,10 +1,10 @@
-# GSS Intern Checkin System POC
+# Intern Checkin System POC
 
 ![](/img/demo.png)
 
 ## 說明
 
-GSS實習生Google Sheet簽到的自動化腳本POC
+某公司實習生的Google Sheet簽到的自動化腳本POC
 
 ### 衍生應用
 
@@ -23,7 +23,8 @@ GSS實習生Google Sheet簽到的自動化腳本POC
 ```console
 usage: main.py [-h] [-v] [-c | -s SHOW_WORKING_HOURS]
 
-GSS實習生通用腳本 https://github.com/opabravo/intern-checkin-poc
+某公司實習生的Google Sheet簽到的自動化腳本POC
+https://github.com/opabravo/intern-checkin-poc
 
 options:
   -h, --help            show this help message and exit

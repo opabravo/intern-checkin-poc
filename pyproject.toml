@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "intern-auto-checkin"
 version = "0.1.0"
-description = "Auto Checkin for interns in GSS"
+description = "Auto Checkin for interns in a company"
 authors = ["opabravo"]
 license = "MIT"
 readme = "README.md"

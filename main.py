@@ -222,7 +222,7 @@ def fetch_working_hours(year: int):
 def init_parser():
     """Argparse initialization"""
     parser = argparse.ArgumentParser(
-        description='GSS實習生通用腳本\nhttps://github.com/opabravo/intern-checkin-poc')
+        description='某公司實習生的Google Sheet簽到腳本\nhttps://github.com/opabravo/intern-checkin-poc')
     parser.add_argument('-v', '--verbose',
                         action='store_true', help='顯示詳細資訊，並存到logs.log')
     group = parser.add_mutually_exclusive_group()
